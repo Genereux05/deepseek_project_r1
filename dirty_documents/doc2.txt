@@ -1,0 +1,35 @@
+L’intelligence artificielle désigne l’ensemble des techniques permettant aux machines de simuler des comportements intelligents : comprendre, apprendre, décider, percevoir et interagir.
+
+L’IA repose sur plusieurs disciplines majeures :
+
+Apprentissage automatique (machine learning) : les modèles apprennent à partir des données.
+
+Traitement automatique du langage naturel (NLP) : comprendre le langage humain.
+
+Vision par ordinateur : reconnaître des objets ou des visages.
+
+Systèmes experts : simulent le raisonnement humain à partir de règles.
+
+L’IA est déjà utilisée dans :
+
+la santé (aide au diagnostic),
+
+la finance (détection de fraude),
+
+la logistique (prévision de la demande),
+
+les assistants vocaux, la traduction automatique, etc.
+
+Mais elle pose aussi des questions éthiques importantes :
+
+biais dans les données,
+
+manque de transparence,
+
+responsabilité des décisions automatiques,
+
+protection des données personnelles.
+
+L’IA de confiance devient donc une priorité : elle doit être explicable, responsable et régulée.
+Avec les avancées actuelles, l’IA s’impose comme un moteur central de transformation dans toutes les sphères de la société.
+

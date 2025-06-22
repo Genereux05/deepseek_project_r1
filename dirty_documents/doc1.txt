@@ -1,0 +1,32 @@
+La classification est une tâche d’apprentissage supervisé consistant à prédire une étiquette ou une classe pour une donnée en entrée. Par exemple, classifier un email comme spam ou non, reconnaître un chiffre écrit à la main, ou prédire un diagnostic médical à partir de symptômes.
+
+Elle est utilisée dans de nombreux domaines : sécurité, marketing, santé, finance, etc.
+
+Les algorithmes les plus populaires sont :
+
+K-plus proches voisins (KNN) : classe une donnée selon ses voisins.
+
+Arbres de décision : utilisent des règles logiques.
+
+Forêts aléatoires : combinaison de plusieurs arbres.
+
+SVM : trouve une frontière de séparation optimale.
+
+Réseaux de neurones : idéaux pour les données complexes (images, sons...).
+
+L’évaluation d’un modèle de classification repose sur des métriques comme :
+
+l’exactitude (accuracy),
+
+la précision,
+
+le rappel,
+
+le F1-score,
+
+et la matrice de confusion.
+
+On utilise souvent la validation croisée pour tester la robustesse du modèle et éviter le sur-apprentissage (overfitting).
+
+La classification est donc un pilier fondamental de l’intelligence artificielle, indispensable pour de nombreuses applications modernes.
+
