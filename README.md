@@ -58,7 +58,7 @@ deepseek_project_r1
 
 1. Clonez le dépôt :
 
-   git clone <url_du_depot>
+   git clone https://github.com/Genereux05/deepseek_project_r1.git
    cd deepseek_project_r1
 
 2. Installez les dépendances :
