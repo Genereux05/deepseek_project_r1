@@ -79,7 +79,7 @@ deepseek_project_r1
     
     uvicorn app.main:app --reload 
 
-3. Interface utilisateur3
+3. Interface utilisateur
 
     120.0.0.1:8000/interface
     ""pour interagir avec l'application via une interface web.""
