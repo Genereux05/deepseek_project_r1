@@ -59,12 +59,13 @@ deepseek_project_r1
 1. Clonez le dépôt :
 
    git clone https://github.com/Genereux05/deepseek_project_r1.git
+   
    cd deepseek_project_r1
 
-2. Installez les dépendances :
+3. Installez les dépendances :
     pip install -r requirements.txt
 
-3. Assurez-vous que le modèle Vosk est présent dans le dossier vosk-model-small-fr-pguyot-0.3.
+4. Assurez-vous que le modèle Vosk est présent dans le dossier vosk-model-small-fr-pguyot-0.3.
 
 ## Utilisation
 
@@ -103,4 +104,5 @@ deepseek_project_r1
 
 # Auteurs
     Nom de l'auteur : TCHIAKPE Généreux Sèdjro Ronald
-    Contact : tchiakpegenereux05@gmail.com
+    linkedIn:  Généreux TCHIAKPE
+    Email: tchiakpegenereux05@gmail.com
