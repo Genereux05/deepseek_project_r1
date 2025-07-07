@@ -1,6 +1,7 @@
 import wave
 import json
 from vosk import Model, KaldiRecognizer
+from pydub import AudioSegment
 
 
 import os
@@ -21,12 +22,27 @@ def text_to_speech(text, output_file="response_audio.mp3"):
         return None
 
 
-
 def speech_to_text(file_path):
+    # Vérifiez si le fichier est un MP3 et convertissez-le en WAV
+    if file_path.endswith(".mp3"):
+        wav_path = file_path.replace(".mp3", ".wav")
+        audio = AudioSegment.from_file(file_path, format="mp3")
+        audio.export(wav_path, format="wav")
+        file_path = wav_path
+
+    # Chargez le modèle Vosk
     model = Model("./vosk-model-small-fr-pguyot-0.3") 
-    wf = wave.open(file_path, "rb")
+
+    # Ouvrez le fichier WAV
+    try:
+        wf = wave.open(file_path, "rb")
+    except wave.Error as e:
+        raise ValueError(f"Erreur lors de l'ouverture du fichier WAV : {e}")
+
+    # Initialisez le reconnaisseur
     rec = KaldiRecognizer(model, wf.getframerate())
 
+    # Traitez l'audio pour extraire le texte
     result = ""
     while True:
         data = wf.readframes(4000)
