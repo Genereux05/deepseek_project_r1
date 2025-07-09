@@ -22,15 +22,11 @@ os.makedirs(AUDIO_DIR, exist_ok=True)
 app.mount("/audios", StaticFiles(directory=AUDIO_DIR), name="audios")
 
 # Interface HTML (si activée)
-@app.get("/interface", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 def interface():
     with open("index.html", "r", encoding="utf-8") as f:
         return f.read()
 
-# Route d'accueil simple
-@app.get("/")
-def home():
-    return {"message": "Bienvenue sur l'API de recherche DeepSeek-R1 avec chunks."}
 
 # Modèle pour les questions texte
 class Question(BaseModel):
