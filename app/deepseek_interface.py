@@ -33,6 +33,7 @@ class DeepSeekR1Engine:
                 with open(path, "r", encoding="utf-8") as f:
                     contenu = f.read()
                 contenu = self._nettoyer_texte(contenu)
+                
                 blocs = self._split_en_chunks(contenu)
                 self.chunks.extend(blocs)
                 self.sources.extend([filename] * len(blocs))
