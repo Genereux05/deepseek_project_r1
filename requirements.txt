@@ -4,7 +4,7 @@ torch>=2.0.0
 sentence-transformers==2.5.1
 
 # FAISS est problématique sur Render, mieux vaut le désactiver ou mettre en local
-# faiss-cpu==1.7.4
+faiss-cpu
 
 # API FastAPI
 fastapi==0.111.0
